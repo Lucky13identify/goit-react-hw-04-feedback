@@ -13,3 +13,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+li {
+  list-style: none;
+}
+h2 {
+  margin: 0;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  font-size: 17px;
+  color: greenyellow;
+  background: blue;
+}
+
+section {
+  padding-bottom: 50px;
+}
+
+.main-div {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 30;
+  color: #010101;
+}
